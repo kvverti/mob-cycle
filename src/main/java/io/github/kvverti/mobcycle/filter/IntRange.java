@@ -1,10 +1,10 @@
-package io.github.kvverti.mobcycle.properties;
+package io.github.kvverti.mobcycle.filter;
 
-final class IntRange {
-    final int min;
-    final int max;
+public final class IntRange {
+    public final int min;
+    public final int max;
 
-    IntRange(int min, int max) {
+    public IntRange(int min, int max) {
         if(max < min) {
             throw new IllegalArgumentException("max < min");
         }

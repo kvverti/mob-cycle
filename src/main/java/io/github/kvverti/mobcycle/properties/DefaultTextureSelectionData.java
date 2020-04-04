@@ -1,5 +1,7 @@
 package io.github.kvverti.mobcycle.properties;
 
+import io.github.kvverti.mobcycle.filter.IntRange;
+
 import java.util.Collections;
 import java.util.Set;
 import java.util.regex.Pattern;
